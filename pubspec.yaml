@@ -1,0 +1,46 @@
+name: bookmarkapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/Logo.svg
+    - assets/images/OB-1.svg
+    - assets/images/OB-1.png
+    - assets/images/top Blob.png
+    - assets/images/bottom Blob.png
+
+  fonts:
+    - family: Exo
+      fonts:
+       - asset: assets/fonts/Exo-Bold.ttf
+
+    - family: Noto Sans
+      fonts:
+       - asset: assets/fonts/NotoSans-Bold.ttf
+       - asset: assets/fonts/NotoSans-Regular.ttf
+
